@@ -1,0 +1,816 @@
+body{
+   
+    font-family: 'Pacifico', sans-serif ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    margin-left: 135px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-li{
+    display: inline-block;
+}
+
+.header-li:not(:last-child){
+    margin-right: 40px;
+}
+
+.header-li > a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+.unique-container{
+    position: relative ;
+    
+}
+
+.unique-pottery{
+    display: flex;  
+}
+
+.header-li:last-child{
+    margin-right: 150px;
+}
+
+.unique-pottery > div:first-of-type{
+    position: absolute;
+    right: 25px;
+}
+
+.unique-pottery > div:last-of-type{
+    z-index: 1;
+}
+
+.unique-text{
+    z-index: 1;
+    margin-top: 190px;
+    margin-left: 144px;
+}
+
+.pompeo{
+    font-family: 'Poppins'
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+    margin-bottom: 12px;
+}
+
+.Porcelain {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin-bottom: 2px;
+    margin-top: 12px;
+}
+
+
+.stone{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    
+}
+
+.modern1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin-top: 14px;
+}  
+
+.img-vase{
+    margin-right: 33px;
+    margin-top: 127px;
+}
+
+.button-all{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: darkred;
+    border: none;
+    padding: 19px 21px 20px 40px;
+    
+    margin-top: 20px
+}
+
+
+
+.categories-product{
+    
+    margin-top: 120px;
+}
+
+.text-categories{
+   
+    display: flex;
+    justify-content:center;   
+    
+}
+
+.categories-pro{
+    font-family: 'Poppins';
+    font-style: normal;     
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+}
+
+.porcelain-h1{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.img-categories{
+    margin-top: 8px;
+}
+
+.h1-porcelain, .h1-pottery{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.info-categories{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+}
+
+.around-container{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 65px;
+
+}
+
+.around-Vases{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #E4B366;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    border-radius: 240px;
+}
+
+.img-vases{
+    margin-top: 75px; 
+    margin-left: 85px;
+}
+
+.vases-around{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.around-Mugs{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #F05B10;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    border-radius: 240px;
+}
+
+.img-mugs{
+    margin-top: 75px; 
+    margin-left: 85px;
+}
+
+.mugs-around{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.around-Plates{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #A21010;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    border-radius: 240px;
+}
+
+.img-plates{
+    margin-top: 75px; 
+    margin-left: 85px;
+}
+
+.plates-around{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.info-h5, .info-class-h5{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 1px;
+    color: #000000; 
+}
+
+
+.info-p{
+    max-width: 550px;
+    margin-top: 26px;
+}
+
+.hr-around{
+    height: 1px;
+    background: #EBEBEB;
+    border: #EBEBEB;
+}
+
+.container-blackvases{
+    margin-top: 77px;
+    display: flex;
+    align-items: center;
+}
+
+.vase-black{
+    position: relative;
+
+}
+
+.item1{
+    min-width: 500px;
+    height: 220px;
+    background: #F5F5F5;
+    border-radius: 0px;
+    margin-top: 120px;
+    margin-left: 145px;
+    position: absolute;
+    z-index: 1;
+}
+
+.vase-black:first-of-type{
+    
+    z-index: 2;
+}
+
+.vase-black:last-of-type{
+    position: absolute;
+    
+}
+
+.img-black{
+    margin-left: 270px;
+    z-index: 2;
+}
+
+.vase-text{
+    z-index: 2;
+    margin-left: 210px;
+}
+
+.h4-vase{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.text-vase{
+    max-width: 400px;
+}
+
+.h6-vase{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-orange{
+    display: flex;
+    align-items: center;
+    margin-top: 99px;
+}
+
+.orange-text{
+    margin-left: 145px;
+}
+
+.vase-orange{
+    position: relative;
+    margin-left: 600px;
+}
+
+.vase-orange:first-of-type{
+    
+    z-index: 2;
+}
+
+.vase-orange:last-of-type{
+    position: absolute;
+    /* z-index: 1; */
+    
+}
+
+.img-orange{
+    margin-left: 270px;
+    z-index: 2;
+}
+
+.item2{
+    min-width: 500px;
+    height: 220px;
+    background: #F5F5F5;
+    border-radius: 0px;
+    margin-top: 120px;
+    margin-left: 145px;
+    position: absolute;
+    z-index: 1; 
+}
+
+.vase-text{
+    z-index: 1;
+    margin-left: 210px;
+}
+
+.grid-container{
+    display: grid;
+    margin-top: 120px;
+}
+
+.text-h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+}
+
+.text-h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.grid-under{
+    display: grid; 
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 3fr);
+    
+    gap: 20px;
+}
+
+.grid-item{
+    grid-template-areas:
+    "one two three"
+    "four five six"
+}
+
+.grid-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.grid-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button-view{
+     margin-top: 60px;
+     margin-left: 480px;
+}
+
+.ready-pottery{
+    position: relative;
+    margin-top: 120px;
+    position: relative;
+}
+
+.pottery-text{
+    display: flex;
+}
+
+.pottery-text > div:last-child{
+     position: absolute;
+}
+
+.text-ready{
+    margin-top: 120px;
+    z-index: 1;
+    margin-left: 144px;
+}
+
+.p-pottery{
+    max-width: 420px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.p-pottery > a{
+    color:#AC1313;
+}
+
+
+.latest-container{
+    margin-top: 120px;
+}
+
+.img-latest{
+    text-align: center;
+}
+
+.latest-p{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+}
+
+.latest-new{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.latest-img{
+    margin-top: 8px;
+}
+
+.news-h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.form-latest{
+    margin-top: 65px;
+    text-align: center;
+}
+
+.input-latest{
+    padding: 13px 149px 12px 10px;
+    border: 1px solid #EBEBEB;
+    border-radius: 0px;
+}
+
+.button-latest{
+    width: 175px;
+    height: 45px;
+    left: calc(50% - 175px/2 + 161.5px);
+    top: -0.05px;
+    background: #000000;
+    border-radius: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.item-sign{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.item{
+    width: 13px;
+    height: 13px;
+    left: calc(50% - 13px/2 - 85.5px);
+    top: 1.95px;
+    background: #8534FF;
+    border-radius: 0px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+.info-container{
+    margin-top: 100px;
+    
+}
+
+
+.pompeo-header{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.info-text{
+    max-width: 345px;
+    margin-left: 550px;
+
+}
+
+.info-text2{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items:  center;
+    color: #6C6C6C;
+    
+}
+
+.img-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.email-info, .find-info, .call-info{
+   text-align: center;
+}
+
+.p-info{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.p-adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+}
+
+.p-footer{
+    padding: 33px 0 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #6C6C6C;
+}
+
+.p-footer > span{
+    font-weight:bold;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 1090px;
+    }
+
+    .header-nav{
+        margin-left: 100px;
+    }
+    
+    .unique-text{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .unique-img{
+        max-width: 100%;
+    }
+
+    .around-Vases{
+        width: 220px;
+        height: 220px;
+    }
+
+    .img-vases {
+        margin-top: 65px;
+        margin-left: 75px;
+    }
+
+    .around-Mugs {
+        width: 220px;
+        height: 220px;
+    }
+
+    .img-mugs {
+        margin-top: 65px;
+        margin-left: 75px;
+    }
+
+    .around-Plates {
+        width: 220px;
+        height: 220px;
+    }
+
+    .img-plates {
+        margin-top: 65px;
+        margin-left: 75px;
+    }
+
+    .info-p {
+        max-width: 450px;
+    }
+
+    .grid-under{
+        grid-template-columns: repeat(2, 3fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
+
+    .grid-item{
+        display: grid;
+        grid-template-areas: 
+        "one, two"
+        "three, four"
+        "five, six";
+        gap: 10px;
+    }
+
+    .text-ready{
+        margin-left: 100px;
+    }
+
+}
+
+    @media screen and (max-width: 800px) {
+        .container{
+            max-width: 500px;
+        }
+         .unique-img{
+            max-width: 100%;
+         }
+
+         .Porcelain, .stone {
+            font-size: 38px;
+         }
+
+         .modern1{
+            margin-top: 10px;
+         }
+
+         .around-container{
+            gap:10px
+         }
+
+         .around-Vases{
+            width: 150px;
+            height: 150px;
+        }
+
+        .img-vases {
+            margin-top: 30px;
+            margin-left: 75px;
+        }
+    
+        .around-Mugs {
+            width: 150px;
+            height: 150px;
+        }
+    
+        .img-mugs {
+            margin-top: 65px;
+            margin-left: 75px;
+        }
+    
+        .around-Plates {
+            width: 150px;
+            height: 150px;
+        }
+    
+        .img-plates {
+            margin-top: 65px;
+            margin-left: 75px;
+        }
+
+        .info-h5, .info-class-h5{
+            font-size: 19px;
+        }
+
+        .info-p {
+            max-width: 200px;
+        }
+
+        .item1 {
+            margin-left: 10px;
+        }
+
+        .img-black {
+            margin-left: 100px;
+        }
+
+        .grid-under{
+            grid-template-columns: repeat(1, 6fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        .button-all{
+           justify-items: center ;
+        }
+
+        .pottery-img{
+            max-width: 100%;
+        }
+
+        .text-ready{
+            margin-top: 80px;
+            margin-left: 30px;
+        }
+
+        .info-text{
+            max-width: 565px;
+            margin-left: 180px;
+        }
+
+        .p-adress{
+            font-size: 10px;
+        }
+    }    
